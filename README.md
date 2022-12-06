@@ -1,2 +1,2 @@
-# Hillel
+# Python-Hillel
 School
