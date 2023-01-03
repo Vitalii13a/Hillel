@@ -32,7 +32,7 @@ Math_ClassRoom_3= int(input('How many students in 3 class:'))
 head_count_students = int(Math_ClassRoom_1+Math_ClassRoom_2+Math_ClassRoom_3)
 print(f'We have', head_count_students,'students')
 
-Table = round(head_count_students /2 )
+Table = round(head_count_students /2)
 print(f'We need', Table, 'desks')
 
 
