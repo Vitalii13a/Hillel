@@ -9,7 +9,7 @@ for element in my_list:
         print(element, end=' ')
 print()
 print('Task_1')
-#замени минусы на пробелы
+
 # 2) У вас есть список my_list с значениями типа int, и пустой список my_results.
 # Добавить в my_results те значения, которые больше 100.
 # Распечатать список my_results.
