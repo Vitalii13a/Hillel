@@ -22,7 +22,7 @@ print(result)
 #     *               *
 #   *                   *
 # * * * * * * * * * * * * *
-n=int(input('Insert the number of figure A height: '))
+n=int(input('Insert the height of figure A: '))
 for h in range(n):
     for w in range(n*2-1):
         if w==n-h-1 or w==n-1+h or h==n-1:
@@ -39,7 +39,7 @@ for h in range(n):
 #   * * * * * * * * * * *
 # * * * * * * * * * * * * *
 
-n=int(input('Insert the number of figure B height: '))
+n=int(input('Insert the height of figure B: '))
 for h in range(n):
     for w in range(h+1,n):
         print(' ', end=' ')
@@ -63,7 +63,7 @@ for h in range(n):
 #           *   *
 #             *
 
-n=int(input('Insert the number of figure C height: '))
+n=int(input('Insert the height of figure C: '))
 for h in range(n-1):
     for w in range(h+1,n):
         print(' ', end=' ')
@@ -93,7 +93,7 @@ for h in range(n-1,-1,-1) :
 #         *   *   *
 #           * * *
 #             *
-n=int(input('Insert the number of figure D height: '))
+n=int(input('Insert the height of figure D: '))
 for h in range(n-1):
     for w in range(h+1,n):
         print(' ', end=' ')
